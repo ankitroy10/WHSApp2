@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>327127490042-vct570ohrf8h8t317jiuipfql0u5qel0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.327127490042-vct570ohrf8h8t317jiuipfql0u5qel0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC4vB2FsZ0zTdo8c_okgSxSH49QnhP9sL0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>327127490042</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ankitRoy.WHSApp2</string>
+	<key>PROJECT_ID</key>
+	<string>whs-tutoring-app-81826</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whs-tutoring-app-81826.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:327127490042:ios:9a1ae5803507e30f</string>
+	<key>DATABASE_URL</key>
+	<string>https://whs-tutoring-app-81826.firebaseio.com</string>
+</dict>
+</plist>

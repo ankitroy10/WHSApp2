@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196164D24BF28BF65F272EEC /* Pods_WHSApp2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4456EE7228AA38FA223294 /* Pods_WHSApp2UITests.framework */; };
+		5753414407A6CBA979F67991 /* Pods_WHSApp2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD8D47993CD6796E8DC881 /* Pods_WHSApp2Tests.framework */; };
+		75B21E5A4EC37187AB49254D /* Pods_WHSApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BC118E06793E5BB34AF831 /* Pods_WHSApp2.framework */; };
+		BC0DDC9A2183FAFB0012CC37 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DDC992183FAFB0012CC37 /* HistoryViewController.swift */; };
+		BC3EA7882180B5630027A58D /* TutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3EA7872180B5630027A58D /* TutorViewController.swift */; };
+		BC659F5F21337CC70053B448 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC659F5E21337CC70053B448 /* WelcomeViewController.swift */; };
+		BC9F1C032071A438001FBC61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F1C022071A438001FBC61 /* SignInViewController.swift */; };
+		BC9FAF282179059A0043B438 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9FAF272179059A0043B438 /* AdminViewController.swift */; };
+		BCD75A662139FA9F009B12FA /* ClaimedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD75A652139FA9F009B12FA /* ClaimedViewController.swift */; };
+		BCD75A68213A2317009B12FA /* ClaimedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD75A67213A2317009B12FA /* ClaimedInfoViewController.swift */; };
+		BCDD6FE1213B99EA00A83B05 /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDD6FE0213B99EA00A83B05 /* AddInfoViewController.swift */; };
 		BCEFD7DE205F37C900869489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD7DD205F37C900869489 /* AppDelegate.swift */; };
 		BCEFD7E0205F37C900869489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD7DF205F37C900869489 /* ViewController.swift */; };
 		BCEFD7E3205F37C900869489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEFD7E1205F37C900869489 /* Main.storyboard */; };
@@ -14,6 +25,12 @@
 		BCEFD7E8205F37C900869489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEFD7E6205F37C900869489 /* LaunchScreen.storyboard */; };
 		BCEFD7F3205F37C900869489 /* WHSApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD7F2205F37C900869489 /* WHSApp2Tests.swift */; };
 		BCEFD7FE205F37C900869489 /* WHSApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD7FD205F37C900869489 /* WHSApp2UITests.swift */; };
+		BCEFD80C205F386200869489 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCEFD80B205F386200869489 /* GoogleService-Info.plist */; };
+		BCEFD810205F3D9A00869489 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD80F205F3D9A00869489 /* ThirdViewController.swift */; };
+		BCEFD812205F3EC000869489 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD811205F3EC000869489 /* FourthViewController.swift */; };
+		BCEFD814205F3F5500869489 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEFD813205F3F5500869489 /* SecondViewController.swift */; };
+		BCF42D04206C2690008E53E0 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF42D03206C2690008E53E0 /* DisplayViewController.swift */; };
+		BCF42D06206C5BB6008E53E0 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF42D05206C5BB6008E53E0 /* StudentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21E83447BF10CCB07C44E6B9 /* Pods-WHSApp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2Tests/Pods-WHSApp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		259B3C3AA1995C8D6C58D8F1 /* Pods-WHSApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2/Pods-WHSApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		34FBF0AA6F7E162946EFC3AA /* Pods-WHSApp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2Tests/Pods-WHSApp2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3CDD8D47993CD6796E8DC881 /* Pods_WHSApp2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSApp2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421A3F3012D9FAD9D60CEAF3 /* Pods-WHSApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2/Pods-WHSApp2.release.xcconfig"; sourceTree = "<group>"; };
+		A66BECE7E5C478513D3AAD4E /* Pods-WHSApp2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2UITests/Pods-WHSApp2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4BC118E06793E5BB34AF831 /* Pods_WHSApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0DDC992183FAFB0012CC37 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		BC3EA7872180B5630027A58D /* TutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewController.swift; sourceTree = "<group>"; };
+		BC659F5E21337CC70053B448 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BC9F1C022071A438001FBC61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BC9FAF272179059A0043B438 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		BCD75A652139FA9F009B12FA /* ClaimedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimedViewController.swift; sourceTree = "<group>"; };
+		BCD75A67213A2317009B12FA /* ClaimedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimedInfoViewController.swift; sourceTree = "<group>"; };
+		BCDD6FE0213B99EA00A83B05 /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
 		BCEFD7DA205F37C900869489 /* WHSApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHSApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEFD7DD205F37C900869489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCEFD7DF205F37C900869489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,14 @@
 		BCEFD7F9205F37C900869489 /* WHSApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHSApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEFD7FD205F37C900869489 /* WHSApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHSApp2UITests.swift; sourceTree = "<group>"; };
 		BCEFD7FF205F37C900869489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEFD80B205F386200869489 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCEFD80F205F3D9A00869489 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BCEFD811205F3EC000869489 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		BCEFD813205F3F5500869489 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BCF42D03206C2690008E53E0 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		BCF42D05206C5BB6008E53E0 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		EB4456EE7228AA38FA223294 /* Pods_WHSApp2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHSApp2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F9EAC59117A9C35EABF45 /* Pods-WHSApp2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHSApp2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHSApp2UITests/Pods-WHSApp2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B21E5A4EC37187AB49254D /* Pods_WHSApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5753414407A6CBA979F67991 /* Pods_WHSApp2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196164D24BF28BF65F272EEC /* Pods_WHSApp2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19BE0D9D5B571817A2D73A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC118E06793E5BB34AF831 /* Pods_WHSApp2.framework */,
+				3CDD8D47993CD6796E8DC881 /* Pods_WHSApp2Tests.framework */,
+				EB4456EE7228AA38FA223294 /* Pods_WHSApp2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6430C4E49D29FE27AE379218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				259B3C3AA1995C8D6C58D8F1 /* Pods-WHSApp2.debug.xcconfig */,
+				421A3F3012D9FAD9D60CEAF3 /* Pods-WHSApp2.release.xcconfig */,
+				21E83447BF10CCB07C44E6B9 /* Pods-WHSApp2Tests.debug.xcconfig */,
+				34FBF0AA6F7E162946EFC3AA /* Pods-WHSApp2Tests.release.xcconfig */,
+				EE5F9EAC59117A9C35EABF45 /* Pods-WHSApp2UITests.debug.xcconfig */,
+				A66BECE7E5C478513D3AAD4E /* Pods-WHSApp2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BCEFD7D1205F37C900869489 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				BCEFD7F1205F37C900869489 /* WHSApp2Tests */,
 				BCEFD7FC205F37C900869489 /* WHSApp2UITests */,
 				BCEFD7DB205F37C900869489 /* Products */,
+				6430C4E49D29FE27AE379218 /* Pods */,
+				19BE0D9D5B571817A2D73A2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +166,25 @@
 			isa = PBXGroup;
 			children = (
 				BCEFD7DD205F37C900869489 /* AppDelegate.swift */,
-				BCEFD7DF205F37C900869489 /* ViewController.swift */,
 				BCEFD7E1205F37C900869489 /* Main.storyboard */,
+				BCEFD7DF205F37C900869489 /* ViewController.swift */,
+				BCEFD813205F3F5500869489 /* SecondViewController.swift */,
+				BCEFD80F205F3D9A00869489 /* ThirdViewController.swift */,
+				BCEFD811205F3EC000869489 /* FourthViewController.swift */,
+				BC9F1C022071A438001FBC61 /* SignInViewController.swift */,
+				BC9FAF272179059A0043B438 /* AdminViewController.swift */,
+				BC3EA7872180B5630027A58D /* TutorViewController.swift */,
+				BC0DDC992183FAFB0012CC37 /* HistoryViewController.swift */,
+				BC659F5E21337CC70053B448 /* WelcomeViewController.swift */,
+				BCD75A652139FA9F009B12FA /* ClaimedViewController.swift */,
+				BCD75A67213A2317009B12FA /* ClaimedInfoViewController.swift */,
+				BCF42D05206C5BB6008E53E0 /* StudentsViewController.swift */,
+				BCF42D03206C2690008E53E0 /* DisplayViewController.swift */,
+				BCDD6FE0213B99EA00A83B05 /* AddInfoViewController.swift */,
 				BCEFD7E4205F37C900869489 /* Assets.xcassets */,
 				BCEFD7E6205F37C900869489 /* LaunchScreen.storyboard */,
 				BCEFD7E9205F37C900869489 /* Info.plist */,
+				BCEFD80B205F386200869489 /* GoogleService-Info.plist */,
 			);
 			path = WHSApp2;
 			sourceTree = "<group>";
@@ -132,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEFD802205F37C900869489 /* Build configuration list for PBXNativeTarget "WHSApp2" */;
 			buildPhases = (
+				876541DECD085F82969342B4 /* [CP] Check Pods Manifest.lock */,
 				BCEFD7D6205F37C900869489 /* Sources */,
 				BCEFD7D7205F37C900869489 /* Frameworks */,
 				BCEFD7D8205F37C900869489 /* Resources */,
+				0F5B55E3398EE9FC2E23EBDE /* [CP] Embed Pods Frameworks */,
+				1C8DAEAEA16F56985785A852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEFD805205F37C900869489 /* Build configuration list for PBXNativeTarget "WHSApp2Tests" */;
 			buildPhases = (
+				E7B7D392B5EEEA51A5565057 /* [CP] Check Pods Manifest.lock */,
 				BCEFD7EA205F37C900869489 /* Sources */,
 				BCEFD7EB205F37C900869489 /* Frameworks */,
 				BCEFD7EC205F37C900869489 /* Resources */,
+				E9D92CA3F8F3CC292E053782 /* [CP] Embed Pods Frameworks */,
+				8B8AF6CE0BD7CF5B55DF65E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEFD808205F37C900869489 /* Build configuration list for PBXNativeTarget "WHSApp2UITests" */;
 			buildPhases = (
+				96E18AFF9D8F1C3C9D12D28E /* [CP] Check Pods Manifest.lock */,
 				BCEFD7F5205F37C900869489 /* Sources */,
 				BCEFD7F6205F37C900869489 /* Frameworks */,
 				BCEFD7F7205F37C900869489 /* Resources */,
+				AE82BE37EEE69E15E2024EEE /* [CP] Embed Pods Frameworks */,
+				C6A545A8F247BC9B8CFB0B39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,15 +284,18 @@
 				TargetAttributes = {
 					BCEFD7D9205F37C900869489 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					BCEFD7ED205F37C900869489 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BCEFD7D9205F37C900869489;
 					};
 					BCEFD7F8205F37C900869489 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BCEFD7D9205F37C900869489;
 					};
@@ -233,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEFD7E8205F37C900869489 /* LaunchScreen.storyboard in Resources */,
+				BCEFD80C205F386200869489 /* GoogleService-Info.plist in Resources */,
 				BCEFD7E5205F37C900869489 /* Assets.xcassets in Resources */,
 				BCEFD7E3205F37C900869489 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +349,182 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F5B55E3398EE9FC2E23EBDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2/Pods-WHSApp2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2/Pods-WHSApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C8DAEAEA16F56985785A852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2/Pods-WHSApp2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876541DECD085F82969342B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8AF6CE0BD7CF5B55DF65E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2Tests/Pods-WHSApp2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E18AFF9D8F1C3C9D12D28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSApp2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE82BE37EEE69E15E2024EEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2UITests/Pods-WHSApp2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A545A8F247BC9B8CFB0B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2UITests/Pods-WHSApp2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B7D392B5EEEA51A5565057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHSApp2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D92CA3F8F3CC292E053782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHSApp2Tests/Pods-WHSApp2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCEFD7D6205F37C900869489 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD75A662139FA9F009B12FA /* ClaimedViewController.swift in Sources */,
+				BC659F5F21337CC70053B448 /* WelcomeViewController.swift in Sources */,
 				BCEFD7E0205F37C900869489 /* ViewController.swift in Sources */,
+				BC0DDC9A2183FAFB0012CC37 /* HistoryViewController.swift in Sources */,
+				BCF42D06206C5BB6008E53E0 /* StudentsViewController.swift in Sources */,
+				BCF42D04206C2690008E53E0 /* DisplayViewController.swift in Sources */,
+				BCEFD810205F3D9A00869489 /* ThirdViewController.swift in Sources */,
+				BC9F1C032071A438001FBC61 /* SignInViewController.swift in Sources */,
 				BCEFD7DE205F37C900869489 /* AppDelegate.swift in Sources */,
+				BC9FAF282179059A0043B438 /* AdminViewController.swift in Sources */,
+				BC3EA7882180B5630027A58D /* TutorViewController.swift in Sources */,
+				BCD75A68213A2317009B12FA /* ClaimedInfoViewController.swift in Sources */,
+				BCEFD814205F3F5500869489 /* SecondViewController.swift in Sources */,
+				BCDD6FE1213B99EA00A83B05 /* AddInfoViewController.swift in Sources */,
+				BCEFD812205F3EC000869489 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +593,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +601,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -363,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +652,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +660,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,43 +692,49 @@
 		};
 		BCEFD803205F37C900869489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259B3C3AA1995C8D6C58D8F1 /* Pods-WHSApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953TZS8VAU;
 				INFOPLIST_FILE = WHSApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BCEFD804205F37C900869489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421A3F3012D9FAD9D60CEAF3 /* Pods-WHSApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953TZS8VAU;
 				INFOPLIST_FILE = WHSApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		BCEFD806205F37C900869489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E83447BF10CCB07C44E6B9 /* Pods-WHSApp2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953TZS8VAU;
 				INFOPLIST_FILE = WHSApp2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHSApp2.app/WHSApp2";
 			};
@@ -468,15 +742,17 @@
 		};
 		BCEFD807205F37C900869489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FBF0AA6F7E162946EFC3AA /* Pods-WHSApp2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 953TZS8VAU;
 				INFOPLIST_FILE = WHSApp2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHSApp2.app/WHSApp2";
 			};
@@ -484,6 +760,7 @@
 		};
 		BCEFD809205F37C900869489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5F9EAC59117A9C35EABF45 /* Pods-WHSApp2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,7 +768,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WHSApp2;
 			};
@@ -499,6 +776,7 @@
 		};
 		BCEFD80A205F37C900869489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66BECE7E5C478513D3AAD4E /* Pods-WHSApp2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -506,7 +784,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankitRoy.WHSApp2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WHSApp2;
 			};
